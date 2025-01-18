@@ -49,7 +49,7 @@ We welcome contributions to make the ASCII Art Generator even better! Here’s h
 2. **Clone Your Fork**
    - Clone the forked repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/ascii-art-generator.git
+     git clone https://github.com/alesarritz/ascii-art-generator.git
      ```
 
 3. **Create a New Branch**
