@@ -39,44 +39,69 @@ Using font: slant
 Enter text to generate ASCII art (or type 'exit' to quit): exit
 Goodbye! Stay artistic!
 ```
-
 ## Contribution Guide
+
 We welcome contributions to make the ASCII Art Generator even better! Here’s how you can contribute:
 
-1. **Fork the Repository**
-   - Click the “Fork” button on the top-right corner of the repository page to create your copy.
+### 1. **Fork the Repository**
+- Click the “Fork” button on the top-right corner of the repository page to create your copy.
 
-2. **Clone Your Fork**
-   - Clone the forked repository to your local machine:
-     ```bash
-     git clone https://github.com/alesarritz/ascii-art-generator.git
-     ```
+### 2. **Clone Your Fork**
+- Clone the forked repository to your local machine:
+  ```bash
+  git clone https://github.com/<your-username>/ascii-art-generator.git
+  ```
+  Replace `<your-username>` with your GitHub username.
 
-3. **Create a New Branch**
-   - Create a branch for your feature or bug fix:
-     ```bash
-     git checkout -b feature-name
-     ```
+### 3. **Set Up Your Environment**
+- Ensure you have Python 3.x installed. You can check this by running:
+  ```bash
+  python --version
+  ```
+- [Optional] Set up a virtual environment to manage dependencies:
+  ```bash
+  python -m venv env
+  source env/bin/activate  # On Windows, use `env\Scripts\activate`
+  ```
+- Install the required dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-4. **Make Your Changes**
-   - Edit the code or documentation to add features or fix issues.
+### 4. **Create a New Branch**
+- Create a branch for your feature or bug fix:
+  ```bash
+  git checkout -b feature-name
+  ```
 
-5. **Test Your Changes**
-   - Ensure your changes work correctly by running the script.
+### 5. **Make Your Changes**
+- Edit the code or documentation to add features or fix issues.
 
-6. **Commit and Push**
-   - Commit your changes with a meaningful message:
-     ```bash
-     git commit -m "Add new feature or fix bug"
-     ```
-   - Push your changes to your fork:
-     ```bash
-     git push origin feature-name
-     ```
+### 6. **Test Your Changes**
+- Run the script to ensure your changes work correctly:
+  ```bash
+  python ascii_art_generator.py
+  ```
 
-7. **Submit a Pull Request**
-   - Go to the original repository and click “New Pull Request.”
-   - Describe your changes and submit the pull request for review.
+### 7. **Commit and Push**
+- Commit your changes with a meaningful message:
+  ```bash
+  git commit -m "Add new feature or fix bug"
+  ```
+- Push your changes to your fork:
+  ```bash
+  git push origin feature-name
+  ```
+
+### 8. **Submit a Pull Request**
+- Go to the original repository and click “New Pull Request.”
+- Describe your changes and submit the pull request for review.
+
+### Additional Resources for Beginners
+- [GitHub Docs](https://docs.github.com/en/get-started/quickstart) – Learn the basics of using Git and GitHub.
+- [Python Virtual Environments Guide](https://docs.python.org/3/tutorial/venv.html) – Understand how to create and use virtual environments.
+- [Troubleshooting Pip Installation Issues](https://pip.pypa.io/en/stable/user_guide/#installing-packages) – Common solutions for `pip`-related problems.
+
 
 ## License
 This project is open-source and available under the MIT License.
